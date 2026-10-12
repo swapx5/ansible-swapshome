@@ -1,0 +1,8 @@
+# Ansible-generated files
+*.retry
+.ansible/
+
+# Local secrets and environment files
+.env
+.vault-password
+.vault-password.*

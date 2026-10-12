@@ -1,0 +1,7 @@
+---
+- name: Check connectivity to Linux homelab hosts
+  hosts: linux_hosts
+  gather_facts: false
+  tasks:
+    - name: Verify Ansible can connect to each Linux host
+      ansible.builtin.ping:
